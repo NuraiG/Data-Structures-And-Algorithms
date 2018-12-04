@@ -47,7 +47,7 @@ void heapSort_max(int *arr, int size)//max kam min;
 	while (high > 0)
 	{
 		myswap(arr[high], arr[0]);
-		--high;
+		high--;
 		max_heap(arr, 0, high);
 	}
 }
@@ -97,7 +97,7 @@ void heapSort_min(int *arr, int size)//min kam max;
 	while (high > 0)
 	{
 		myswap(arr[high], arr[0]);
-		--high;
+		high--;
 		min_heap(arr, 0, high);
 	}
 }
