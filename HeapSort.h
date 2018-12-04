@@ -39,7 +39,7 @@ void heapify_max(int arr[], int start_index, int end_index)//max kam min;
 	}
 }
 
-void heapsort_max(int *arr, int size)//max kam min;
+void heapSort_max(int *arr, int size)//max kam min;
 {
 	int high = size - 1;
 	heapify_max(arr, 0, high);
@@ -89,7 +89,7 @@ void heapify_min(int arr[], int start_index, int end_index)//min kam max;
 	}
 }
 
-void heapsort_min(int *arr, int size)//min kam max;
+void heapSort_min(int *arr, int size)//min kam max;
 {
 	int high = size - 1;
 	heapify_min(arr, 0, high);
